@@ -161,7 +161,7 @@ function apicall() {
         headers: myHeaders,
         redirect: 'follow'
     };
-    fetch("https://billboard-api2.p.rapidapi.com/hot-100?date="+inputvalue+"&range=1-10&x-rapidapi-key=b0174852bfmsh60c6cac6744b4fep1544d2jsn6df30f1a7489", requestOptions)
+    fetch("https://billboard-api2.p.rapidapi.com/hot-100?date="+inputvalue+"&range=1-10&x-rapidapi-key=7446c99a12msha658029cbd0878ep1a1201jsnf7a27e248dc8", requestOptions)
         .then(response => response.json())
         .then(result => {
             //console logging data and grabbing th artist and songs title form data and passing that data to other function.
