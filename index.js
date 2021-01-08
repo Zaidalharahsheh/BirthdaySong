@@ -155,13 +155,13 @@ $(document).ready(function () {
 function apicall() {
   var inputvalue = $("#input").val();
     var myHeaders = new Headers();
-    myHeaders.append("x-rapidapi-key", "b0174852bfmsh60c6cac6744b4fep1544d2jsn6df30f1a7489");
+    myHeaders.append("x-rapidapi-key", "133c3b8bfemsha81a12c08b6cc87p1b7898jsn7f6222c74ca0");
     var requestOptions = {
         method: 'GET',
         headers: myHeaders,
         redirect: 'follow'
     };
-    fetch("https://billboard-api2.p.rapidapi.com/hot-100?date="+inputvalue+"&range=1-10&x-rapidapi-key=7446c99a12msha658029cbd0878ep1a1201jsnf7a27e248dc8", requestOptions)
+    fetch("https://billboard-api2.p.rapidapi.com/hot-100?date=" + inputvalue +"&range=1-10&x-rapidapi-key=133c3b8bfemsha81a12c08b6cc87p1b7898jsn7f6222c74ca0", requestOptions)
         .then(response => response.json())
         .then(result => {
             //console logging data and grabbing th artist and songs title form data and passing that data to other function.
@@ -180,7 +180,7 @@ function apicall() {
             youtubesearch();
             function youtubesearch() {
                 var myHeaders = new Headers();
-                myHeaders.append("x-rapidapi-key", " b0174852bfmsh60c6cac6744b4fep1544d2jsn6df30f1a7489");
+                myHeaders.append("x-rapidapi-key", "133c3b8bfemsha81a12c08b6cc87p1b7898jsn7f6222c74ca0");
                 var requestOptions = {
                     method: 'GET',
                     headers: myHeaders,
@@ -197,12 +197,12 @@ function apicall() {
                           player.src = embeddedUrl;
                          
                     })
-                    .catch(error => console.log('error', error));
+             
                    
             }
             gifysearch();
             function gifysearch() {
-                var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + artists + "&api_key=dc6zaTOxFJmzC&limit=4";
+                var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + artists + "&api_key= Nzw2wNk75IiSKYUgSwPr4ft4EAeREC0s=4";
                 $.ajax({
                     method: "GET",
                     url: queryURL,
