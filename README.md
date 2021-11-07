@@ -1,4 +1,4 @@
-# group_2_api
+
 
 Project Name: "Sounds of your Birth"
 
@@ -17,6 +17,7 @@ Mockup:
 ![screenshoot readme](assets/Screen Shot 2020-12-15 at 9.16.07 PM.png)
 (/assets/Screen Shot 2020-12-15 at 8.37.21 PM.png)
 (/assets/Screen Shot 2020-12-15 at 9.16.07 PM.png)
-
+Page Link:
+https://zaidalharahsheh.github.io/BirthdaySong/
 
 
